@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'PedanticDevanagari';
-    src: url(../PedanticDevanagari/PedanticDevanagari.woff);
+    src: url(PedanticDevanagari.woff);
     unicode-range: U+0900-U+097F,U+A8E0-U+A8FB,U+1CD0-U+1CF6,U+2E24;
 }
 
 @font-face {
     font-family: 'PedanticMalayalam';
-            src: url('../PedanticMalayalam/PedanticMalayalam.woff');
+            src: url('PedanticMalayalam.woff');
             unicode-range: U+0D00-U+0D7F,U+25CC;
 }
 
 @font-face {
     font-family: 'PedanticTelugu';
-            src: url('../PedanticTelugu/PedanticTelugu.woff');
+            src: url('PedanticTelugu.woff');
             unicode-range: U+0C00-U+0C7F;
 }
 
