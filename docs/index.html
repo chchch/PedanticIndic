@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Pedantic Indic fonts</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="prism.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="prism.js"></script>
+</head>
+<body>
+    <h1>Pedantic Indic fonts</h1>
+    
+    <p>Pedantic Indic comprises three fonts: Pedantic Devanāgarī, Pedantic Malayālam, and Pedantic Telugu. They are based on other fonts, with the addition of extra glyphs and features that are useful for transcribing manuscripts. In each font, dependent vowel signs can also be <a href="#vowels">rendered as independent characters</a>.</p>
+    
+    <h2>Pedantic Devanāgarī</h2>
+    <p>
+Pedantic Devanāgarī is based on <a href="https://www.oah.in/Sanskrit/itranslator2003.htm">Sanskrit2003</a>, developed by <a href="https://www.oah.in/">Omkarananda Ashram</a>. It's license is unknown. The following glyphs have been added:
+    <ul>
+        <li>pṛṣṭhamātrā vowel sign <span class="medium">&#x25CC;&#x94E;</span> (U+094E)</li>
+        <li>puṣpikā <span class="medium">&#xA8F8;</span> (U+A8F8)</li>
+        <li>śirorekha <span class="medium">&#xA8FB;</span> (U+A8FB)</li>
+        <li>Jaina oṃkāra sign <span class="medium">&#xA8FD;</span> (U+A8FD)</li>
+    </p>
+    
+    <h2>Pedantic Malayālam</h2>
+    <p>
+Pedantic Malayālam is based on <a href="https://github.com/smc/Rachana">Rachana</a>, developed by <a href="http://smc.org.in">Swathanthra Malayalam Computing</a> (Open Font License 1.1/GPLv3+). The following glyphs have been added: 
+    <ul>
+        <li>chillu m <span class="mediumplus">&#xD54;</span> (U+0D54)</li>
+    </ul>
+The following conjuncts have been added:
+    <ul>
+        <li>cśa <span class="mediumplus">&#xD1A;&#xD4D;&#xD36;</span></li>
+        <li>cśu <span class="mediumplus">&#xD1A;&#xD4D;&#xD36;&#xD41;</span></li> 
+        <li>cśū <span class="mediumplus">&#xD1A;&#xD4D;&#xD36;&#xD42;</span></li>
+        <li>ṅma <span class="mediumplus">&#xD19;&#xD4D;&#xD2E;</span></li>
+        <li>ṅkta <span class="mediumplus">&#xD19;&#xD4D;&#xD15;&#xD4D;&#xD24;</span></li> 
+    </ul>
+    </p>
+
+    <h2>Pedantic Telugu</h2>
+    <p>
+Pedantic Telugu is based on <a href="https://fedoraproject.org/wiki/Pothana2000_fonts">Pothana2000</a>, by K. Desikachary (GPLv2+). The valapalagilaka glyph has been added, and it can be selected using the sequence
+        <blockquote>&#xC30; + &#x25CC;&#xC4D; + zero-width joiner (U+200D)</blockquote>
+        For example, the sequence
+        <blockquote>&#xC30; + &#x25CC;&#xC4D; + zero-width joiner (U+200D) + &#xC24;&#xC4D;&#xC25;</blockquote>
+        would produce
+        <blockquote class="big">&#xC30;&#xC4D;&#x200D;&#xC24;&#xC4D;&#xC25;</blockquote>
+    </p>
+    <p>In addition, consonants without the headstroke can be rendered. This can be done using the sequence
+    <blockquote>[consonant] + zero-width joiner (U+200D) + &#x25CC;&#xC4D;</blockquote>
+    That is to say,
+    <blockquote>&#xC15; + zero-width joiner (U+200D) + &#x25CC;&#xC4D;</blockquote>
+    will output
+    <blockquote class="big">&#xC15;&#x200D;&#xC4D;</blockquote>
+    An independent vowel sign can then be added to the consonant.
+    </p>
+    
+    <hr>
+
+    <h2 id="vowels">independent vowel signs</h2>
+    <p>All three fonts have the ability to display combining vowel signs as independent characters. For vowel signs that appear to the right of the consonant, this can be done by typing the sequence
+        <blockquote>a + zero-width joiner (U+200D) + [vowel sign]</blockquote>
+    That is to say, in order to display a long ā vowel sign in Devanāgarī, you would type
+        <blockquote>&#x905; + zero-width joiner (U+200D) + &#x93E;</blockquote>
+    This would output
+        <blockquote class="big">&#x905;&#x200D;&#x93E;</blockquote>
+    </p>
+    <p>This can be very useful for indicating additions or deletions in a manuscript. For example, in HTML,
+        <blockquote><code class="language-markup">&#x915;&lt;del&gt;&#x905; + zero-width joiner + &#x25CC;&#x93E;&lt;/del&gt;</code></blockquote>
+    can be rendered as
+        <blockquote class="big">&#x915;<del>&#x905;&#x200D;&#x93E;</del></blockquote>
+    Similarly,
+        <blockquote><code class="language-markup">&#xC15;&#x200D;&#xC4D;&lt;ins&gt;&#xC05; + zero-width joiner + &#x25CC;&#xC4C; &lt;/ins&gt;</code></blockquote>
+    can be rendered as
+        <blockquote class="big">&#xC15;&#x200D;&#xC4D;<ins>&#xC05;&#x200D;&#xC4C;</ins></blockquote>
+    </p>
+    <p>
+    For vowel signs that appear to the left of the consonant, we need to use the OpenType alternates feature. These vowel signs are stored in the <code>aalt</code> (Access All Alternates) feature. In CSS, this can be activated with the <code>font-feature-settings</code> property. For example, to make a new class called "aalt", use the following CSS:
+    <blockquote><code class="language-css">.aalt { font-feature-settings: "aalt" 1; }</code></blockquote>
+    Then, the class can be used to select the vowel sign like so:
+    <blockquote><code class="language-markup">&lt;ins class="aalt"&gt;&#xD0E;&lt;/ins&gt;&#xD1F;</code></blockquote>
+    which would produce
+    <blockquote class="big"><ins class="aalt">&#xD0E;</ins>&#xD1F;</blockquote>
+    For information on how to access OpenType features in <a href="https://www.libreoffice.org/">LibreOffice</a>, have a look at the <a href="https://wiki.documentfoundation.org/ReleaseNotes/5.3#Text_Layout">wiki</a>.
+    </p>
+    <p>To see examples for all vowel signs in all three scripts, check the <a href="vowels.html">full list</a>.</p>
+</body>
+</html>
