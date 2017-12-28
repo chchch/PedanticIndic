@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1413885204
-ModificationTime: 1514386021
+ModificationTime: 1514392388
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -4556,7 +4556,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 105 15 5
+WinInfo: 1290 15 5
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'abvm' Above Base Mark in Devanagari lookup 1 subtable" "Anchor-1" "'abvm' Above Base Mark in Devanagari lookup 2 subtable" "Anchor-2" "'abvm' Above Base Mark in Devanagari lookup 2 subtable" "Anchor-3" "'abvm' Above Base Mark in Devanagari lookup 4 subtable" "Anchor-4" "'abvm' Above Base Mark in Devanagari lookup 5 subtable" "Anchor-5" "'blwm' Below Base Mark in Devanagari lookup 6 subtable" "Anchor-6" "'blwm' Below Base Mark in Devanagari lookup 6 subtable" "Anchor-7" "'blwm' Below Base Mark in Devanagari lookup 7 subtable" "Anchor-8" "Mark to base attachment lookup 9 subtable" "Anchor-9" "Mark to base attachment lookup 9 subtable" "Anchor-10" "Mark to base attachment lookup 9 subtable"
@@ -12173,6 +12173,7 @@ SplineSet
  1476 1169 l 1,0,-1
 EndSplineSet
 Validated: 33
+Substitution2: "'aalt' Access All Alternates lookup 1 subtable" uni094E
 EndChar
 
 StartChar: uni0906
@@ -20323,6 +20324,7 @@ SplineSet
  -399 1487 l 2,0,1
 EndSplineSet
 Validated: 33
+Ligature2: "'rlig' Required Ligatures lookup 0 subtable" uni0905 uni200D uni0947
 EndChar
 
 StartChar: uni0948
@@ -20384,6 +20386,7 @@ SplineSet
  -538 1468 -538 1468 -514 1428 c 1,21,-1
 EndSplineSet
 Validated: 33
+Ligature2: "'rlig' Required Ligatures lookup 0 subtable" uni0905 uni200D uni0948
 EndChar
 
 StartChar: uni0949
@@ -20396,6 +20399,7 @@ Fore
 Refer: 126 2366 N 1 0 0 1 0 0 3
 Refer: 133 2373 N 1 0 0 1 582 10 2
 Validated: 1
+Ligature2: "'rlig' Required Ligatures lookup 0 subtable" uni0905 uni200D uni0949
 PairPos2: "'abvm' Above Base Mark in Devanagari lookup 3 subtable" glyph86 dx=0 dy=0 dh=0 dv=0 dx=70 dy=255 dh=0 dv=0
 PairPos2: "'abvm' Above Base Mark in Devanagari lookup 3 subtable" glyph85 dx=0 dy=0 dh=0 dv=0 dx=-104 dy=13 dh=0 dv=0
 PairPos2: "'abvm' Above Base Mark in Devanagari lookup 3 subtable" uni0902 dx=0 dy=0 dh=0 dv=0 dx=68 dy=208 dh=0 dv=0
@@ -20487,6 +20491,7 @@ SplineSet
  247 1648 247 1648 268 1502 c 0,14,15
 EndSplineSet
 Validated: 33
+Ligature2: "'rlig' Required Ligatures lookup 0 subtable" uni0905 uni200D uni094A
 EndChar
 
 StartChar: uni094B
@@ -20565,6 +20570,7 @@ SplineSet
  231 1480 l 2,14,15
 EndSplineSet
 Validated: 33
+Ligature2: "'rlig' Required Ligatures lookup 0 subtable" uni0905 uni200D uni094B
 EndChar
 
 StartChar: uni094C
@@ -20665,6 +20671,7 @@ SplineSet
  122 1441 122 1441 144 1404 c 1,35,-1
 EndSplineSet
 Validated: 33
+Ligature2: "'rlig' Required Ligatures lookup 0 subtable" uni0905 uni200D uni094C
 EndChar
 
 StartChar: uni094D
@@ -20714,6 +20721,7 @@ SplineSet
  -421 -372 -421 -372 -329 -446 c 1,0,1
 EndSplineSet
 Validated: 1
+Ligature2: "'rlig' Required Ligatures lookup 0 subtable" uni0905 uni200D uni094D
 EndChar
 
 StartChar: uni094E
