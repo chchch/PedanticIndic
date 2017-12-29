@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1201144321
-ModificationTime: 1514393520
+ModificationTime: 1514537809
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ OS2StrikeYPos: 512
 OS2Vendor: 'PfEd'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80800001.00002000.00000000.00000000
-Lookup: 4 0 1 "'rlig' Required Ligatures lookup 0" { "'rlig' Required Ligatures lookup 0 subtable"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > 'mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "Required Feature lookup 16" { "vowels"  "consonants"  } [' RQD' ('DFLT' <'dflt' > 'mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'pref' Pre Base Forms in Malay+AQEA-lam2 lookup 1" { "'pref' Pre Base Forms in Malay+AQEA-lam2 lookup 1 subtable"  } ['pref' ('mlm2' <'dflt' > ) ]
 Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam2 lookup 2" { "'akhn' Akhand in Malay+AQEA-lam2 lookup 2 subtable"  } ['akhn' ('mlm2' <'dflt' > ) ]
 Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam lookup 3" { "'akhn' Akhand in Malay+AQEA-lam lookup 3 subtable"  } ['akhn' ('mlym' <'dflt' > ) ]
@@ -765,7 +765,7 @@ ShortTable: maxp 16
   2
   1
 EndShort
-LangName: 1033 "" "" "Regular" "PedanticMalayalam" "" "1.0"
+LangName: 1033 "" "" "Regular" "" "" "1.0"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
 Compacted: 1
@@ -774,7 +774,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 15 5
+WinInfo: 30 15 3
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'abvm' Above Base Mark lookup 0 subtable"
@@ -2200,7 +2200,7 @@ SplineSet
  698 238 698 238 698 334 c 128,-1,17
 EndSplineSet
 Validated: 1
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ anusvara
+Ligature2: "vowels" avagraha ZWJ anusvara
 EndChar
 
 StartChar: visarga
@@ -2249,7 +2249,7 @@ SplineSet
  344 152 344 152 344 186 c 128,-1,39
 EndSplineSet
 Validated: 1
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ visarga
+Ligature2: "vowels" avagraha ZWJ visarga
 EndChar
 
 StartChar: ml_a
@@ -5273,7 +5273,7 @@ SplineSet
  820 560 820 560 820 444 c 0,0,1
 EndSplineSet
 Validated: 1
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ a2
+Ligature2: "vowels" avagraha ZWJ a2
 EndChar
 
 StartChar: i1
@@ -5299,7 +5299,7 @@ SplineSet
  522 0 l 1,0,-1
 EndSplineSet
 Validated: 33
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ i1
+Ligature2: "vowels" avagraha ZWJ i1
 EndChar
 
 StartChar: i2
@@ -5337,7 +5337,7 @@ SplineSet
  278 932 278 932 278 978 c 0,28,29
 EndSplineSet
 Validated: 1
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ i2
+Ligature2: "vowels" avagraha ZWJ i2
 EndChar
 
 StartChar: u1
@@ -5372,7 +5372,7 @@ SplineSet
  446 -310 446 -310 446 -244 c 0,22,23
 EndSplineSet
 Validated: 1
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ u1
+Ligature2: "vowels" avagraha ZWJ u1
 EndChar
 
 StartChar: u2
@@ -5409,7 +5409,7 @@ SplineSet
  418 -290 418 -290 418 -226 c 1,29,30
 EndSplineSet
 Validated: 1
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ u2
+Ligature2: "vowels" avagraha ZWJ u2
 EndChar
 
 StartChar: r1
@@ -5457,7 +5457,7 @@ SplineSet
  548 -342 548 -342 548 -274 c 0,46,47
 EndSplineSet
 Validated: 1
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ r1
+Ligature2: "vowels" avagraha ZWJ r1
 EndChar
 
 StartChar: r2
@@ -5521,7 +5521,7 @@ SplineSet
  499 -207 499 -207 499 -274 c 0,50,51
 EndSplineSet
 Validated: 5
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ r2
+Ligature2: "vowels" avagraha ZWJ r2
 EndChar
 
 StartChar: e1
@@ -5564,7 +5564,7 @@ SplineSet
  550 194 550 194 550 262 c 0,35,36
 EndSplineSet
 Validated: 1
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ e1
+Ligature2: "vowels" avagraha ZWJ e1
 EndChar
 
 StartChar: e2
@@ -5619,7 +5619,7 @@ SplineSet
  910 178 910 178 910 226 c 0,61,62
 EndSplineSet
 Validated: 1
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ e2
+Ligature2: "vowels" avagraha ZWJ e2
 EndChar
 
 StartChar: ai1
@@ -5692,7 +5692,7 @@ SplineSet
  1636 194 1636 194 1636 262 c 0,84,85
 EndSplineSet
 Validated: 1
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ ai1
+Ligature2: "vowels" avagraha ZWJ ai1
 EndChar
 
 StartChar: o1
@@ -5788,6 +5788,7 @@ SplineSet
  734 308 734 308 734 360 c 0,114,115
 EndSplineSet
 Validated: 33
+Ligature2: "vowels" avagraha ZWJ o1
 EndChar
 
 StartChar: o2
@@ -5891,6 +5892,7 @@ SplineSet
  978 242 978 242 978 340 c 0,132,133
 EndSplineSet
 Validated: 1
+Ligature2: "vowels" avagraha ZWJ o2
 EndChar
 
 StartChar: au1
@@ -6000,6 +6002,7 @@ SplineSet
  747 265 747 265 747 329 c 0,129,130
 EndSplineSet
 Validated: 1
+Ligature2: "vowels" avagraha ZWJ au1
 EndChar
 
 StartChar: xx
@@ -6028,7 +6031,7 @@ SplineSet
  476 1182 476 1182 476 1172 c 0,0,1
 EndSplineSet
 Validated: 1
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ xx
+Ligature2: "vowels" avagraha ZWJ xx
 EndChar
 
 StartChar: dotreph
@@ -6048,7 +6051,8 @@ SplineSet
  -850 1088 -850 1088 -885 1181 c 1,8,-1
  -885 1235 l 1,0,1
 EndSplineSet
-Validated: 1
+LCarets2: 3 0 0 0
+Ligature2: "consonants" avagraha ZWJ r3 xx
 EndChar
 
 StartChar: uni0D54
@@ -6143,7 +6147,7 @@ SplineSet
  1386 650 1386 650 1386 446 c 0,0,1
 EndSplineSet
 Validated: 1
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ au2
+Ligature2: "vowels" avagraha ZWJ au2
 EndChar
 
 StartChar: ml_rr
@@ -6375,7 +6379,7 @@ SplineSet
  -827 -561 -827 -561 -827 -488 c 0,61,62
 EndSplineSet
 Validated: 33
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ l1
+Ligature2: "vowels" avagraha ZWJ l1
 EndChar
 
 StartChar: l2
@@ -6438,7 +6442,7 @@ SplineSet
  -726 -561 -726 -561 -726 -488 c 0,76,77
 EndSplineSet
 Validated: 1
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ l2
+Ligature2: "vowels" avagraha ZWJ l2
 EndChar
 
 StartChar: ml_0
@@ -8061,6 +8065,8 @@ SplineSet
  558 -96 558 -96 644 -62 c 1,0,-1
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0
+Ligature2: "consonants" avagraha ZWJ r3
 Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam lookup 7 subtable" r3 xx
 Ligature2: "'pref' Pre Base Forms in Malay+AQEA-lam2 lookup 1 subtable" xx r3
 EndChar
@@ -8106,9 +8112,10 @@ SplineSet
  788 -46 788 -46 788 -204 c 0,0,1
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0
+Ligature2: "consonants" avagraha ZWJ y1
 Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 8 subtable" xx y1
 Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam lookup 7 subtable" y1 xx
-Ligature2: "'rlig' Required Ligatures lookup 0 subtable" ml_a ZWJ y1
 EndChar
 
 StartChar: y2u1
@@ -8261,6 +8268,7 @@ SplineSet
  578 -122 l 1,0,-1
 EndSplineSet
 Validated: 1
+Ligature2: "consonants" avagraha ZWJ v1
 Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 8 subtable" xx v1
 Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam lookup 7 subtable" v1 xx
 EndChar

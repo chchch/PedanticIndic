@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Pedantic Indic fonts</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,300i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="prism.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
@@ -13,7 +13,7 @@
 <body>
     <h1>Pedantic Indic fonts</h1>
     
-    <p>Pedantic Indic comprises three fonts: Pedantic Devanāgarī, Pedantic Malayālam, and Pedantic Telugu. They are based on other fonts, with the addition of extra glyphs and features that are useful for transcribing manuscripts. In each font, dependent vowel signs can also be <a href="#vowels">rendered as independent characters</a>.</p>
+    <p>Pedantic Indic comprises three fonts: Pedantic Devanāgarī, Pedantic Malayālam, and Pedantic Telugu. They are based on other fonts, with the addition of extra glyphs and features that are particularly useful for transcribing manuscripts. In each font, dependent vowel signs can be <a href="#vowels">rendered as independent characters</a>. Some consonant conjunct forms can also be <a href="#consonants">rendered independently</a>.</p>
     
     <h2>Pedantic Devanāgarī</h2>
     <p>
@@ -44,9 +44,9 @@ The following conjuncts have been added:
     <h2>Pedantic Telugu</h2>
     <p>
 Pedantic Telugu is based on <a href="https://fedoraproject.org/wiki/Pothana2000_fonts">Pothana2000</a>, by K. Desikachary (GPLv2+). The valapalagilaka glyph has been added, and it can be selected using the sequence
-        <blockquote>&#xC30; + &#x25CC;&#xC4D; + zero-width joiner (U+200D)</blockquote>
+        <blockquote>&#xC30; + halant (U+0C4D) + zero-width joiner (U+200D)</blockquote>
         For example, the sequence
-        <blockquote>&#xC30; + &#x25CC;&#xC4D; + zero-width joiner (U+200D) + &#xC24;&#xC4D;&#xC25;</blockquote>
+        <blockquote>&#xC30; + halant (U+0C4D) + zero-width joiner (U+200D) + &#xC24;&#xC4D;&#xC25;</blockquote>
         would produce
         <blockquote class="big">&#xC30;&#xC4D;&#x200D;&#xC24;&#xC4D;&#xC25;</blockquote>
     </p>
@@ -62,31 +62,43 @@ Pedantic Telugu is based on <a href="https://fedoraproject.org/wiki/Pothana2000_
     <hr>
 
     <h2 id="vowels">independent vowel signs</h2>
-    <p>All three fonts have the ability to display combining vowel signs as independent characters. For vowel signs that appear to the right of the consonant, this can be done by typing the sequence
-        <blockquote>a + zero-width joiner (U+200D) + [vowel sign]</blockquote>
+    <p>All three fonts have the ability to display combining vowel signs as independent characters. This can be done by typing the sequence
+        <blockquote>[avagraha] + zero-width joiner (U+200D) + [vowel sign]</blockquote>
     That is to say, in order to display a long ā vowel sign in Devanāgarī, you would type
-        <blockquote>&#x905; + zero-width joiner (U+200D) + &#x93E;</blockquote>
+        <blockquote>&#x93D; + zero-width joiner (U+200D) + &#x93E;</blockquote>
     This would output
-        <blockquote class="big">&#x905;&#x200D;&#x93E;</blockquote>
+        <blockquote class="big">&#x93D;&#x200D;&#x93E;</blockquote>
     </p>
     <p>This can be very useful for indicating additions or deletions in a manuscript. For example, in HTML,
-        <blockquote><code class="language-markup">&#x915;&lt;del&gt;&#x905; + zero-width joiner + &#x25CC;&#x93E;&lt;/del&gt;</code></blockquote>
+        <blockquote><code class="language-markup">&#x915;&lt;del&gt;&#x93D; + zero-width joiner + &#x25CC;&#x93E;&lt;/del&gt;</code></blockquote>
     can be rendered as
-        <blockquote class="big">&#x915;<del>&#x905;&#x200D;&#x93E;</del></blockquote>
+        <blockquote class="big">&#x915;<del>&#x93D;&#x200D;&#x93E;</del></blockquote>
     Similarly,
-        <blockquote><code class="language-markup">&#xC15;&#x200D;&#xC4D;&lt;ins&gt;&#xC05; + zero-width joiner + &#x25CC;&#xC4C; &lt;/ins&gt;</code></blockquote>
+        <blockquote><code class="language-markup">&#xC15;&#x200D;&#xC4D;&lt;ins&gt;&#xC3D; + zero-width joiner + &#x25CC;&#xC4C; &lt;/ins&gt;</code></blockquote>
     can be rendered as
-        <blockquote class="big">&#xC15;&#x200D;&#xC4D;<ins>&#xC05;&#x200D;&#xC4C;</ins></blockquote>
+        <blockquote class="big">&#xC15;&#x200D;&#xC4D;<ins>&#xC3D;&#x200D;&#xC4C;</ins></blockquote>
     </p>
     <p>
-    For vowel signs that appear to the left of the consonant, we need to use the OpenType alternates feature. These vowel signs are stored in the <code>aalt</code> (Access All Alternates) feature. In CSS, this can be activated with the <code>font-feature-settings</code> property. For example, to make a new class called "aalt", use the following CSS:
-    <blockquote><code class="language-css">.aalt { font-feature-settings: "aalt" 1; }</code></blockquote>
-    Then, the class can be used to select the vowel sign like so:
-    <blockquote><code class="language-markup">&lt;ins class="aalt"&gt;&#xD0E;&lt;/ins&gt;&#xD1F;</code></blockquote>
-    which would produce
-    <blockquote class="big"><ins class="aalt">&#xD0E;</ins>&#xD1F;</blockquote>
-    For information on how to access OpenType features in <a href="https://www.libreoffice.org/">LibreOffice</a>, have a look at the <a href="https://wiki.documentfoundation.org/ReleaseNotes/5.3#Text_Layout">wiki</a>.
+These can be combined. For example,
+    <blockquote><code class="language-markup">&lt;ins&gt;&#xD3D; + zero-width joiner + &#xD3D;&#x200D;&#xD46;&#x25CC; &lt;/ins&gt;&#xD15;&lt;del&gt;&#xD3D; + zero-width joiner + &#x25CC;&#xD3F; &lt;/del&gt;</code></blockquote>
+    would produce
+    <blockquote class="big"><ins>&#xD3D;&#x200D;&#xD46;</ins>&#xD15;<del>&#xD3D;&#x200D;&#xD3F;</del></blockquote>
+    <u>Please note</u> that, as in the above example, vowel signs that appear to the left of the consonant must be input before the consonant itself.
     </p>
     <p>To see examples for all vowel signs in all three scripts, check the <a href="vowels.html">full list</a>.</p>
+    
+    <hr>
+    <h2 id="consonants">independent consonant conjunct forms</h2>
+    
+    <p>Some forms of consonants, as they appear in conjuncts, can also be rendered independently, using a similar sequence:
+        <blockquote>[avagraha] + zero-width joiner (U+200D) + [consonant] (+ [halant])</blockquote>
+    For example, in order to display the Devanāgarī reph, you would type
+        <blockquote>&#x93D; + zero-width joiner (U+200D) + &#x930; + &#x25CC;&#x94D;</blockquote>
+    Thus, the sequence
+        <blockquote><code class="language-markup">&#x915;&lt;ins&gt;&#x93D; + zero-width joiner + &#x930;&#x94D;&lt;/ins&gt;</code></blockquote>
+    would output
+    <blockquote class="big">&#x915;<ins>&#x93D;&#x200D;&#x930;&#x94D;</ins></blockquote>
+    Not all conjunct forms are supported yet; they are gradually being added. Check the <a href="consonants.html">current list</a> for details.
+    </p>
 </body>
 </html>
