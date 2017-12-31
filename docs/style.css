@@ -19,7 +19,7 @@
 body {
     font-family: 'Alegreya Sans', PedanticDevanagari, PedanticMalayalam, PedanticTelugu, sans-serif;
     color: black;
-    max-width: 800px;
+    max-width: 700px;
     margin: 0 auto;
     line-height: 1.2;
     padding-top: 20px;
@@ -63,4 +63,9 @@ ins {
 
 p {
     hyphens: auto;
+}
+
+.biblio {
+    padding-left: 1em;
+    text-indent: -1em;
 }

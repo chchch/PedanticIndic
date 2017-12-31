@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1413885204
-ModificationTime: 1514567321
+ModificationTime: 1514700393
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -4556,7 +4556,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 105 15 5
+WinInfo: 150 15 5
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'abvm' Above Base Mark in Devanagari lookup 1 subtable" "Anchor-1" "'abvm' Above Base Mark in Devanagari lookup 2 subtable" "Anchor-2" "'abvm' Above Base Mark in Devanagari lookup 2 subtable" "Anchor-3" "'abvm' Above Base Mark in Devanagari lookup 4 subtable" "Anchor-4" "'abvm' Above Base Mark in Devanagari lookup 5 subtable" "Anchor-5" "'blwm' Below Base Mark in Devanagari lookup 6 subtable" "Anchor-6" "'blwm' Below Base Mark in Devanagari lookup 6 subtable" "Anchor-7" "'blwm' Below Base Mark in Devanagari lookup 7 subtable" "Anchor-8" "Mark to base attachment lookup 9 subtable" "Anchor-9" "Mark to base attachment lookup 9 subtable" "Anchor-10" "Mark to base attachment lookup 9 subtable"
@@ -14479,6 +14479,7 @@ SplineSet
  512 601 512 601 534 616 c 2,79,-1
  604 667 l 1,66,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni0916
@@ -14681,6 +14682,7 @@ SplineSet
  1115 594 l 2,93,94
  1139 603 1139 603 1184 637 c 1,77,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni0917
@@ -14719,6 +14721,7 @@ SplineSet
  1211 1325 l 1,35,-1
  1211 1169 l 1,0,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni0918
@@ -14841,6 +14844,7 @@ SplineSet
  921 651 921 651 921 743 c 2,72,-1
  920 1169 l 1,36,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni0919
@@ -15102,6 +15106,7 @@ SplineSet
  883 511 883 511 994 658 c 1,60,-1
  997 807 l 1,44,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni091B
@@ -15442,6 +15447,7 @@ SplineSet
  1375 1325 l 1,53,-1
  1375 1169 l 1,0,-1
 EndSplineSet
+Validated: 524321
 EndChar
 
 StartChar: uni091D
@@ -16599,6 +16605,7 @@ SplineSet
  1112 1325 l 1,39,-1
  1112 1169 l 1,0,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni0925
@@ -16770,6 +16777,7 @@ SplineSet
  259 953 259 953 425 907 c 1,73,74
  506 951 506 951 506 1061 c 0,65,66
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni0926
@@ -16870,6 +16878,7 @@ SplineSet
  996 1325 l 1,79,-1
  996 1169 l 1,0,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni0927
@@ -17101,6 +17110,7 @@ SplineSet
  1180 1325 l 1,67,-1
  1180 1169 l 1,0,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni0928
@@ -17187,6 +17197,7 @@ SplineSet
  1093 1325 l 1,33,-1
  1093 1168 l 1,0,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni0929
@@ -17201,6 +17212,7 @@ LayerCount: 2
 Fore
 Refer: 106 2344 N 1 0 0 1 0 0 2
 Refer: 124 2364 N 1 0 0 1 1356 97 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0928 uni093C
 EndChar
@@ -17318,6 +17330,7 @@ SplineSet
  587 630 587 630 621 647 c 0,41,42
  674 673 674 673 719 715 c 1,30,-1
 EndSplineSet
+Validated: 524321
 EndChar
 
 StartChar: uni092B
@@ -17525,6 +17538,7 @@ SplineSet
  418 650 418 650 487 674 c 0,61,62
  523 686 523 686 590 721 c 1,52,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni092C
@@ -17694,6 +17708,7 @@ SplineSet
  223 466 223 466 352 466 c 0,50,51
  424 466 424 466 517 497 c 1,41,42
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni092D
@@ -17852,6 +17867,7 @@ SplineSet
  1198 1325 l 1,53,-1
  1198 1169 l 1,0,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni092E
@@ -18011,6 +18027,7 @@ SplineSet
  429 706 l 1,37,-1
  879 706 l 1,34,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni092F
@@ -18134,6 +18151,7 @@ SplineSet
  829 679 829 679 830 796 c 2,54,-1
  830 1169 l 1,36,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni0930
@@ -18915,6 +18933,7 @@ SplineSet
  521 507 521 507 574 530 c 0,41,42
  634 556 634 556 713 617 c 1,30,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni0936
@@ -19055,6 +19074,7 @@ SplineSet
  1408 1325 l 1,66,-1
  1408 1169 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0937
@@ -19205,6 +19225,7 @@ SplineSet
  719 664 l 1,39,40
  733 676 733 676 737 701 c 1,30,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0938
@@ -19360,6 +19381,7 @@ SplineSet
  895 722 895 722 990 781 c 1,64,-1
  990 1170 l 1,57,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni0939
@@ -19517,6 +19539,7 @@ SplineSet
  1029 1325 l 1,82,-1
  1029 1169 l 1,0,-1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uni093C
@@ -21109,6 +21132,7 @@ LayerCount: 2
 Fore
 Refer: 87 2325 N 1 0 0 1 0 0 3
 Refer: 124 2364 N 1 0 0 1 1311 194 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0915 uni093C
 EndChar
 
@@ -21124,6 +21148,7 @@ LayerCount: 2
 Fore
 Refer: 88 2326 N 1 0 0 1 0 0 2
 Refer: 124 2364 N 1 0 0 1 1206 183 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0916 uni093C
 EndChar
 
@@ -21139,6 +21164,7 @@ LayerCount: 2
 Fore
 Refer: 89 2327 N 1 0 0 1 0 0 3
 Refer: 124 2364 N 1 0 0 1 1629 241 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0917 uni093C
 EndChar
 
@@ -21154,6 +21180,7 @@ LayerCount: 2
 Fore
 Refer: 94 2332 N 1 0 0 1 0 0 2
 Refer: 124 2364 N 1 0 0 1 1199 212 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni091C uni093C
 EndChar
 
@@ -21207,6 +21234,7 @@ LayerCount: 2
 Fore
 Refer: 109 2347 N 1 0 0 1 0 0 2
 Refer: 124 2364 N 1 0 0 1 1310 303 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni092B uni093C
 EndChar
 
@@ -21222,6 +21250,7 @@ LayerCount: 2
 Fore
 Refer: 113 2351 N 1 0 0 1 0 0 2
 Refer: 124 2364 N 1 0 0 1 1341 195 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni092F uni093C
 EndChar
 
@@ -24918,21 +24947,21 @@ EndChar
 
 StartChar: uniA8FB
 Encoding: 196 43259 193
-Width: 835
+Width: 959
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 830 1260 basechar 0
-AnchorPoint: "Anchor-9" 900 1235 basechar 0
-AnchorPoint: "Anchor-8" 830 1248 basechar 0
-AnchorPoint: "Anchor-0" 479 1248 basechar 0
+AnchorPoint: "Anchor-10" 890 1260 basechar 0
+AnchorPoint: "Anchor-9" 960 1235 basechar 0
+AnchorPoint: "Anchor-8" 890 1248 basechar 0
+AnchorPoint: "Anchor-0" 539 1248 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-835 1169 m 1,0,-1
- 835 1325 l 1,1,-1
- 0 1325 l 1,2,-1
- 0 1169 l 1,3,-1
- 835 1169 l 1,0,-1
+772 1169 m 1,0,-1
+ 895 1325 l 1,1,-1
+ 182 1325 l 1,2,-1
+ 60 1169 l 1,3,-1
+ 772 1169 l 1,0,-1
 EndSplineSet
 Validated: 9
 EndChar
@@ -200690,6 +200719,7 @@ LayerCount: 2
 Fore
 Refer: 90 2328 N 1 0 0 1 0 0 2
 Refer: 124 2364 N 1 0 0 1 1187 185 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0918 uni093C
 EndChar
 
@@ -200864,6 +200894,7 @@ LayerCount: 2
 Fore
 Refer: 92 2330 N 1 0 0 1 0 0 2
 Refer: 124 2364 N 1 0 0 1 1249 246 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni091A uni093C
 EndChar
 
@@ -201090,6 +201121,7 @@ LayerCount: 2
 Fore
 Refer: 102 2340 N 1 0 0 1 0 0 2
 Refer: 124 2364 N 1 0 0 1 1143 19 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0924 uni093C
 EndChar
 
@@ -201105,6 +201137,7 @@ LayerCount: 2
 Fore
 Refer: 103 2341 N 1 0 0 1 0 0 3
 Refer: 124 2364 N 1 0 0 1 1273 153 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0925 uni093C
 EndChar
 
@@ -201123,6 +201156,7 @@ LayerCount: 2
 Fore
 Refer: 104 2342 N 1 0 0 1 0 0 3
 Refer: 124 2364 N 1 0 0 1 1273 36 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0926 uni093C
 EndChar
 
@@ -201138,6 +201172,7 @@ LayerCount: 2
 Fore
 Refer: 105 2343 N 1 0 0 1 0 0 2
 Refer: 124 2364 N 1 0 0 1 1212 164 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0927 uni093C
 EndChar
 
@@ -201153,6 +201188,7 @@ LayerCount: 2
 Fore
 Refer: 108 2346 N 1 0 0 1 0 0 2
 Refer: 124 2364 N 1 0 0 1 1298 152 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni092A uni093C
 EndChar
 
@@ -201168,6 +201204,7 @@ LayerCount: 2
 Fore
 Refer: 110 2348 N 1 0 0 1 0 0 3
 Refer: 124 2364 N 1 0 0 1 1282 145 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni092C uni093C
 EndChar
 
@@ -201571,6 +201608,7 @@ LayerCount: 2
 Fore
 Refer: 119 2357 N 1 0 0 1 0 0 3
 Refer: 124 2364 N 1 0 0 1 1240 161 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0935 uni093C
 EndChar
 
@@ -201586,6 +201624,7 @@ LayerCount: 2
 Fore
 Refer: 120 2358 N 1 0 0 1 0 0 3
 Refer: 124 2364 N 1 0 0 1 1231 106 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0936 uni093C
 EndChar
 
@@ -201601,6 +201640,7 @@ LayerCount: 2
 Fore
 Refer: 121 2359 N 1 0 0 1 0 0 2
 Refer: 124 2364 N 1 0 0 1 1306 170 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0937 uni093C
 EndChar
 
@@ -201616,6 +201656,7 @@ LayerCount: 2
 Fore
 Refer: 122 2360 N 1 0 0 1 0 0 3
 Refer: 124 2364 N 1 0 0 1 1273 36 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0938 uni093C
 EndChar
 
@@ -201634,6 +201675,7 @@ LayerCount: 2
 Fore
 Refer: 123 2361 N 1 0 0 1 0 0 3
 Refer: 124 2364 N 1 0 0 1 1180 -20 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 2 subtable" uni0939 uni093C
 EndChar
 
