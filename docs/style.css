@@ -69,3 +69,15 @@ p {
     padding-left: 1em;
     text-indent: -1em;
 }
+
+.toc {
+    margin-left: 2em;
+    margin-right: 2em;
+    background: #f4f5f6;
+    list-style-type: decimal;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.toc li {
+    margin-bottom: 0;
+}
