@@ -24,9 +24,9 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1413885204
-ModificationTime: 1514700393
+ModificationTime: 1514896767
 PfmFamily: 81
-TTFWeight: 400
+TTFWeight: 500
 TTFWidth: 5
 LineGap: 51
 VLineGap: 0
@@ -4548,7 +4548,7 @@ ShortTable: maxp 16
   3
   1
 EndShort
-LangName: 1033 "" "" "Regular" "PedanticDevanagari" "" "Version 1.0"
+LangName: 1033 "" "" "Medium" "PedanticDevanagari" "" "Version 1.0"
 GaspTable: 3 8 2 18 1 65535 3 0
 Encoding: Custom
 UnicodeInterp: none
@@ -4556,7 +4556,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 150 15 5
+WinInfo: 60 15 5
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'abvm' Above Base Mark in Devanagari lookup 1 subtable" "Anchor-1" "'abvm' Above Base Mark in Devanagari lookup 2 subtable" "Anchor-2" "'abvm' Above Base Mark in Devanagari lookup 2 subtable" "Anchor-3" "'abvm' Above Base Mark in Devanagari lookup 4 subtable" "Anchor-4" "'abvm' Above Base Mark in Devanagari lookup 5 subtable" "Anchor-5" "'blwm' Below Base Mark in Devanagari lookup 6 subtable" "Anchor-6" "'blwm' Below Base Mark in Devanagari lookup 6 subtable" "Anchor-7" "'blwm' Below Base Mark in Devanagari lookup 7 subtable" "Anchor-8" "Mark to base attachment lookup 9 subtable" "Anchor-9" "Mark to base attachment lookup 9 subtable" "Anchor-10" "Mark to base attachment lookup 9 subtable"
@@ -15447,7 +15447,7 @@ SplineSet
  1375 1325 l 1,53,-1
  1375 1169 l 1,0,-1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: uni091D
@@ -17330,7 +17330,7 @@ SplineSet
  587 630 587 630 621 647 c 0,41,42
  674 673 674 673 719 715 c 1,30,-1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: uni092B
