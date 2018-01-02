@@ -106,3 +106,7 @@ p {
 .toc li {
     margin-bottom: 0;
 }
+
+.noborder td {
+    border: 0;
+}
