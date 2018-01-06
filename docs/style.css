@@ -31,8 +31,16 @@
 
 @font-face {
     font-family: 'PedanticMalayalam';
-            src: url('PedanticMalayalam.woff');
+    src: url('PedanticMalayalam.woff');
+    unicode-range: U+0D00-U+0D7F,U+25CC;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PedanticMalayalam';
+            src: url('PedanticMalayalamBold.woff');
             unicode-range: U+0D00-U+0D7F,U+25CC;
+    font-weight: bold;
 }
 
 @font-face {
