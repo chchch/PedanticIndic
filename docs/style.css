@@ -38,15 +38,23 @@
 
 @font-face {
     font-family: 'PedanticMalayalam';
-            src: url('PedanticMalayalamBold.woff');
-            unicode-range: U+0D00-U+0D7F,U+25CC;
+    src: url('PedanticMalayalamBold.woff');
+    unicode-range: U+0D00-U+0D7F,U+25CC;
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'PedanticTelugu';
-            src: url('PedanticTelugu.woff');
-            unicode-range: U+0C00-U+0C7F,U+25CC;
+    src: url('PedanticTelugu.woff');
+    unicode-range: U+0C00-U+0C7F,U+25CC;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PedanticTelugu';
+    src: url('PedanticTeluguBold.woff');
+    unicode-range: U+0C00-U+0C7F,U+25CC;
+    font-weight: bold; 
 }
 
 body {

@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1201144321
-ModificationTime: 1515253639
+ModificationTime: 1515256340
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -773,7 +773,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 75 15 5
+WinInfo: 60 15 5
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'abvm' Above Base Mark lookup 0 subtable"
@@ -6059,7 +6059,7 @@ StartChar: uni0D54
 Encoding: 116 3412 117
 Width: 1049
 GlyphClass: 2
-Flags: WO
+Flags: W
 LayerCount: 2
 Back
 SplineSet
@@ -6139,6 +6139,7 @@ SplineSet
  870 1169 870 1169 868 1056 c 0,64,65
  867 1014 867 1014 781 886 c 1,32,33
 EndSplineSet
+Validated: 524321
 EndChar
 
 StartChar: au2
