@@ -99,6 +99,13 @@ ins {
     font-feature-settings: "aalt" 1;
 }
 
+.cv01 {
+    font-feature-settings: "cv01" 1;
+}
+.cv02 {
+    font-feature-settings: "cv02" 1;
+}
+
 .sc {
     font-variant: small-caps;
 }
@@ -127,3 +134,4 @@ p {
 .noborder td {
     border: 0;
 }
+
