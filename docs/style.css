@@ -1,51 +1,51 @@
 @font-face {
     font-family: 'PedanticDevanagari';
     src: local('PedanticDevanagariExtraLight'),
-         url('../PedanticDevanagari/WOFF/PedanticDevanagariExtraLight.woff');
+         url('PedanticDevanagariExtraLight.woff');
     font-weight: 200;
 }
 
 @font-face {
     font-family: 'PedanticDevanagari';
     src: local('PedanticDevanagariLight'),
-         url('../PedanticDevanagari/WOFF/PedanticDevanagariLight.woff');
+         url('PedanticDevanagariLight.woff');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'PedanticDevanagari';
-    src: url('../PedanticDevangari/WOFF/PedanticDevanagari.woff');
+    src: url('PedanticDevanagari.woff');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'PedanticDevanagari';
     src: local('PedanticDevanagariBold'),
-         url('../PedanticDevangari/WOFF/PedanticDevanagariBold.woff');
+         url('PedanticDevanagariBold.woff');
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'PedanticMalayalam';
-    src: url('../PedanticMalayalam/WOFF/PedanticMalayalam.woff');
+    src: url('PedanticMalayalam.woff');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'PedanticMalayalam';
-    src: url('../PedanticMalayalam/WOFF/PedanticMalayalamBold.woff');
+    src: url('PedanticMalayalamBold.woff');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'PedanticTelugu';
-    src: url('../PedanticTelugu/WOFF/PedanticTelugu.woff');
+    src: url('PedanticTelugu.woff');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'PedanticTelugu';
-    src: url('../PedanticTelugu/WOFF/PedanticTeluguBold.woff');
+    src: url('PedanticTeluguBold.woff');
     font-weight: bold; 
 }
 
